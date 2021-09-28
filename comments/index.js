@@ -5,6 +5,8 @@ const cors = require("cors")
 
 const app = express();
 
+console.log("ok")
+
 app.use(express.json());
 
 app.use(cors())
